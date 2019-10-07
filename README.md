@@ -24,5 +24,19 @@ This is a simple open issue tracker which fetches open issues using github api, 
  - Push the code to your fork and then add Pull Request.
  
 **Maintainer**
-- Lakshya Khera (Core Member) 
+- Lakshya Khera (Core Member)
+
+**How to reach us**
+- For additional information visit our Facebook page at 
+[![alt text][2.2]][2]
+
+[2.2]: http://i.imgur.com/fep1WsG.png (http://www.facebook.com/dscjiitnoida/)
+
+[2]: http://www.facebook.com/dscjiitnoida/
+
+
+
+
 ### Happy Coding!
+
+
