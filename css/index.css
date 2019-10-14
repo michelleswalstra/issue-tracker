@@ -1,40 +1,117 @@
 .navbar {
-    background-color:#3c4245;
+    background-color:black;
+}
+
+.navbar a {
+    margin:0 auto;
 }
 
 .issueCard {
     display: grid;
     grid-template-columns: auto;
 }
+
 .issue-card {
-    background-color: #87aeaf;
-    padding: 10px;
-    color:white;
+    background:#F5F5F6;
+    padding:15px;
+    position:relative;
+    margin-bottom:15px;
+    border-radius:10px;
+    transition:all 0.3s ease;
 }
 
-.issue-card > h4 > a {
-    color:white;
-    text-decoration-line: underline;
-
+.issue-card * {
+    color:#222;
 }
+
+.issue-card:hover {
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.28);
+    box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.45);
+}
+
+.issue-card:before {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:45px;
+    background:#F75239;
+    height:45px;
+    z-index:0;
+    border-radius:10px 0 0 0;
+}
+
+.issue-card h4 {
+    color:white;
+    z-index:999;
+    position:relative;
+    font-weight:normal;
+    font-size:16px;
+    margin-top:-2px;
+    margin-left:-2px;
+}
+
+.issue-card h4 a {
+    color:#222;
+    font-weight:bold;
+    text-decoration:none;
+    font-size:24px;
+    margin-left:30px;
+    margin-top:5px;
+    display:inline-block;
+    line-height:25px;
+    vertical-align:top;
+    max-width: calc(100vw - 135px);
+}
+
 .issue-card > p > a {
     text-decoration-line: underline;
     color:blue;
     margin-left: 5px;
     margin-right: 5px;
 }
-.issue-card > p {
+
+.issue-card p {
     margin-bottom: 2px;
     font-size: 12px;
+    margin-left:50px;
+    margin-top:-2px;
 
+}
+
+.issue-card p a {
+    color:#F75239;
+    text-decoration:none;
+    font-weight:bold;
 }
 
 .footer {
-    background-color: #3c4245;
     position: absolute;
     bottom: 0;
-    height: 100px;
     width: 100%;
     padding:20px;
     font-size: 16px;
+    text-align:center;
+    height:65px;
+    background-color:black;
 }
+
+.content-wrapper {
+    height:calc(100vh - 121px);
+    overflow:auto;
+}
+
+.content-wrapper h1 {
+    color:#222;
+    font-weight:bold;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.content-wrapper hr {
+    display:none;
+}
+
+
+
