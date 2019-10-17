@@ -7,8 +7,8 @@
 }
 
 .issueCard {
-    display: grid;
-    grid-template-columns: auto;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .issue-card {
@@ -66,10 +66,10 @@
 }
 
 .issue-card > p > a {
-    text-decoration-line: underline;
-    color:blue;
-    margin-left: 5px;
-    margin-right: 5px;
+  text-decoration-line: underline;
+  color: blue;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .issue-card p {
@@ -112,6 +112,3 @@
 .content-wrapper hr {
     display:none;
 }
-
-
-
