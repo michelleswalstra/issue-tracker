@@ -27,15 +27,12 @@ This is a simple open issue tracker which fetches open issues using github api, 
 - [Lakshya Khera](https://github.com/lakshyabatman) (Core Member)
 
 **How to reach us**
-- For additional information visit our Facebook page at 
+- For additional information visit our Facebook page at: 
 [![alt text][2.2]][2]
 
 [2.2]: http://i.imgur.com/fep1WsG.png (http://www.facebook.com/dscjiitnoida/)
 
 [2]: http://www.facebook.com/dscjiitnoida/
-
-
-
 
 ### Happy Coding!
 
